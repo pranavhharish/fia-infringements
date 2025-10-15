@@ -1,0 +1,76 @@
+# F1 Infringement Analysis Configuration
+
+# Data Paths
+data:
+  input_dir: "../Documents"
+  output_dir: "outputs"
+  years:
+    - "2020-infirdgement_profile"
+    - "2021-infridgement_profile"
+    - "2022-infridgement_profile"
+    - "2023-infridgement_profile"
+    - "2024-infridgement_profile"
+
+# Processing Settings
+processing:
+  max_workers: 4
+  batch_size: 50
+  verbose: true
+  resume_mode: true
+
+# Text Extraction
+extraction:
+  library: "pypdf2"
+  min_text_length: 100
+  max_text_length: 50000
+  encoding: "utf-8"
+
+# Entity Extraction
+entity_extraction:
+  extract_drivers: true
+  extract_car_numbers: true
+  extract_infractions: true
+  extract_penalties: true
+  extract_reasoning: true
+
+# Summarization Settings
+summarization:
+  extractive_method: "lexrank"
+  extractive_sentences: 5
+  abstractive_model: "facebook/bart-large-cnn"
+  abstractive_max_length: 150
+  abstractive_min_length: 50
+  team_year_summary:
+    num_insights: 5
+    style: "factual"
+
+# Evaluation Settings
+evaluation:
+  enabled: true
+  metrics:
+    - "rouge"
+    - "bleu"
+    - "entity_overlap"
+  sample_size: 100
+  reference_path: null
+
+# Output Settings
+output:
+  save_csv: true
+  save_json: true
+  save_txt: true
+  save_visualizations: true
+  compression: "none"
+
+# Model Settings
+models:
+  cache_dir: ".cache/transformers"
+  device: "cpu"
+  inference_batch_size: 8
+
+# Logging
+logging:
+  level: "INFO"
+  file: "outputs/f1_infringement_analysis.log"
+  console: true
+  file_output: true

@@ -1,0 +1,85 @@
+======================================================================
+SUMMARIZATION MODEL COMPARISON REPORT
+======================================================================
+
+Total documents tested: 942
+Models compared: 5
+Models: LexRank, TextRank, Luhn, LexRank-3sent, TextRank-7sent
+
+======================================================================
+MODEL PERFORMANCE METRICS
+======================================================================
+
+
+LexRank:
+--------------------------------------------------
+  Average Compression Ratio: 0.4803
+  Std Compression Ratio: 0.1443
+  Average Processing Time: 0.0073s
+  Average Summary Length: 119 words
+  Min Compression: 0.0612
+  Max Compression: 1.0000
+
+TextRank:
+--------------------------------------------------
+  Average Compression Ratio: 0.5568
+  Std Compression Ratio: 0.1073
+  Average Processing Time: 0.0072s
+  Average Summary Length: 140 words
+  Min Compression: 0.0970
+  Max Compression: 1.0000
+
+Luhn:
+--------------------------------------------------
+  Average Compression Ratio: 0.5553
+  Std Compression Ratio: 0.1100
+  Average Processing Time: 0.0066s
+  Average Summary Length: 140 words
+  Min Compression: 0.1234
+  Max Compression: 1.0000
+
+LexRank-3sent:
+--------------------------------------------------
+  Average Compression Ratio: 0.3132
+  Std Compression Ratio: 0.1296
+  Average Processing Time: 0.0073s
+  Average Summary Length: 80 words
+  Min Compression: 0.0394
+  Max Compression: 1.0000
+
+TextRank-7sent:
+--------------------------------------------------
+  Average Compression Ratio: 0.6378
+  Std Compression Ratio: 0.0956
+  Average Processing Time: 0.0071s
+  Average Summary Length: 164 words
+  Min Compression: 0.1268
+  Max Compression: 1.0000
+
+======================================================================
+MODEL RANKINGS
+======================================================================
+
+Best Compression (Lower = Better):
+  1. LexRank-3sent: 0.3132
+  2. LexRank: 0.4803
+  3. Luhn: 0.5553
+  4. TextRank: 0.5568
+  5. TextRank-7sent: 0.6378
+
+Fastest Processing:
+  1. Luhn: 0.0066s
+  2. TextRank-7sent: 0.0071s
+  3. TextRank: 0.0072s
+  4. LexRank-3sent: 0.0073s
+  5. LexRank: 0.0073s
+
+======================================================================
+RECOMMENDATIONS
+======================================================================
+
+🏆 Best Compression: LexRank-3sent
+⚡ Fastest Processing: Luhn
+⚖️  Best Balanced: LexRank-3sent
+
+======================================================================

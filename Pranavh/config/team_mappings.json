@@ -1,0 +1,245 @@
+{
+  "teams": {
+    "Mercedes": {
+      "official_name": "Mercedes-AMG Petronas F1 Team",
+      "aliases": [
+        "Mercedes-AMG Petronas",
+        "Mercedes AMG Petronas",
+        "Mercedes Petronas",
+        "Mercedes F1",
+        "Mercedes"
+      ],
+      "car_numbers": {
+        "2020": [44, 77],
+        "2021": [44, 77],
+        "2022": [44, 63],
+        "2023": [44, 63],
+        "2024": [44, 63]
+      },
+      "drivers": {
+        "2020": {"44": "Lewis Hamilton", "77": "Valtteri Bottas"},
+        "2021": {"44": "Lewis Hamilton", "77": "Valtteri Bottas"},
+        "2022": {"44": "Lewis Hamilton", "63": "George Russell"},
+        "2023": {"44": "Lewis Hamilton", "63": "George Russell"},
+        "2024": {"44": "Lewis Hamilton", "63": "George Russell"}
+      }
+    },
+    "Red Bull": {
+      "official_name": "Oracle Red Bull Racing",
+      "aliases": [
+        "Red Bull Racing",
+        "Oracle Red Bull Racing",
+        "Red Bull Racing Honda",
+        "Aston Martin Red Bull Racing",
+        "Red Bull"
+      ],
+      "car_numbers": {
+        "2020": [23, 33],
+        "2021": [11, 33],
+        "2022": [1, 11],
+        "2023": [1, 11],
+        "2024": [1, 11]
+      },
+      "drivers": {
+        "2020": {"23": "Alexander Albon", "33": "Max Verstappen"},
+        "2021": {"11": "Sergio Perez", "33": "Max Verstappen"},
+        "2022": {"1": "Max Verstappen", "11": "Sergio Perez"},
+        "2023": {"1": "Max Verstappen", "11": "Sergio Perez"},
+        "2024": {"1": "Max Verstappen", "11": "Sergio Perez"}
+      }
+    },
+    "Ferrari": {
+      "official_name": "Scuderia Ferrari",
+      "aliases": [
+        "Scuderia Ferrari",
+        "Ferrari F1",
+        "Ferrari"
+      ],
+      "car_numbers": {
+        "2020": [5, 16],
+        "2021": [16, 55],
+        "2022": [16, 55],
+        "2023": [16, 55],
+        "2024": [16, 55]
+      },
+      "drivers": {
+        "2020": {"5": "Sebastian Vettel", "16": "Charles Leclerc"},
+        "2021": {"16": "Charles Leclerc", "55": "Carlos Sainz"},
+        "2022": {"16": "Charles Leclerc", "55": "Carlos Sainz"},
+        "2023": {"16": "Charles Leclerc", "55": "Carlos Sainz"},
+        "2024": {"16": "Charles Leclerc", "55": "Carlos Sainz"}
+      }
+    },
+    "McLaren": {
+      "official_name": "McLaren F1 Team",
+      "aliases": [
+        "McLaren F1 Team",
+        "McLaren Racing",
+        "McLaren Mercedes",
+        "McLaren"
+      ],
+      "car_numbers": {
+        "2020": [4, 55],
+        "2021": [3, 4],
+        "2022": [3, 4],
+        "2023": [4, 81],
+        "2024": [4, 81]
+      },
+      "drivers": {
+        "2020": {"4": "Lando Norris", "55": "Carlos Sainz"},
+        "2021": {"3": "Daniel Ricciardo", "4": "Lando Norris"},
+        "2022": {"3": "Daniel Ricciardo", "4": "Lando Norris"},
+        "2023": {"4": "Lando Norris", "81": "Oscar Piastri"},
+        "2024": {"4": "Lando Norris", "81": "Oscar Piastri"}
+      }
+    },
+    "Alpine": {
+      "official_name": "BWT Alpine F1 Team",
+      "aliases": [
+        "Alpine F1 Team",
+        "BWT Alpine F1 Team",
+        "Renault F1 Team",
+        "Renault DP World F1 Team",
+        "Alpine",
+        "Renault"
+      ],
+      "car_numbers": {
+        "2020": [3, 31],
+        "2021": [14, 31],
+        "2022": [14, 31],
+        "2023": [10, 31],
+        "2024": [10, 31]
+      },
+      "drivers": {
+        "2020": {"3": "Daniel Ricciardo", "31": "Esteban Ocon"},
+        "2021": {"14": "Fernando Alonso", "31": "Esteban Ocon"},
+        "2022": {"14": "Fernando Alonso", "31": "Esteban Ocon"},
+        "2023": {"10": "Pierre Gasly", "31": "Esteban Ocon"},
+        "2024": {"10": "Pierre Gasly", "31": "Esteban Ocon"}
+      }
+    },
+    "Aston Martin": {
+      "official_name": "Aston Martin Aramco Cognizant F1 Team",
+      "aliases": [
+        "Aston Martin Aramco Cognizant F1 Team",
+        "Aston Martin F1 Team",
+        "Aston Martin Cognizant F1 Team",
+        "BWT Racing Point F1 Team",
+        "Racing Point F1 Team",
+        "SportPesa Racing Point F1 Team",
+        "Aston Martin",
+        "Racing Point"
+      ],
+      "car_numbers": {
+        "2020": [11, 18],
+        "2021": [5, 18],
+        "2022": [5, 18],
+        "2023": [14, 18],
+        "2024": [14, 18]
+      },
+      "drivers": {
+        "2020": {"11": "Sergio Perez", "18": "Lance Stroll"},
+        "2021": {"5": "Sebastian Vettel", "18": "Lance Stroll"},
+        "2022": {"5": "Sebastian Vettel", "18": "Lance Stroll"},
+        "2023": {"14": "Fernando Alonso", "18": "Lance Stroll"},
+        "2024": {"14": "Fernando Alonso", "18": "Lance Stroll"}
+      }
+    },
+    "AlphaTauri": {
+      "official_name": "Scuderia AlphaTauri",
+      "aliases": [
+        "Scuderia AlphaTauri",
+        "AlphaTauri F1 Team",
+        "Visa Cash App RB F1 Team",
+        "RB F1 Team",
+        "AlphaTauri",
+        "RB"
+      ],
+      "car_numbers": {
+        "2020": [10, 26],
+        "2021": [10, 22],
+        "2022": [10, 22],
+        "2023": [3, 22],
+        "2024": [3, 22]
+      },
+      "drivers": {
+        "2020": {"10": "Pierre Gasly", "26": "Daniil Kvyat"},
+        "2021": {"10": "Pierre Gasly", "22": "Yuki Tsunoda"},
+        "2022": {"10": "Pierre Gasly", "22": "Yuki Tsunoda"},
+        "2023": {"3": "Daniel Ricciardo", "22": "Yuki Tsunoda"},
+        "2024": {"3": "Daniel Ricciardo", "22": "Yuki Tsunoda"}
+      }
+    },
+    "Alfa Romeo": {
+      "official_name": "Alfa Romeo F1 Team Stake",
+      "aliases": [
+        "Alfa Romeo F1 Team Stake",
+        "Alfa Romeo F1 Team ORLEN",
+        "Alfa Romeo Racing ORLEN",
+        "Alfa Romeo Racing",
+        "Kick Sauber F1 Team",
+        "Alfa Romeo",
+        "Sauber"
+      ],
+      "car_numbers": {
+        "2020": [7, 99],
+        "2021": [7, 99],
+        "2022": [24, 77],
+        "2023": [24, 77],
+        "2024": [24, 77]
+      },
+      "drivers": {
+        "2020": {"7": "Kimi Raikkonen", "99": "Antonio Giovinazzi"},
+        "2021": {"7": "Kimi Raikkonen", "99": "Antonio Giovinazzi"},
+        "2022": {"24": "Zhou Guanyu", "77": "Valtteri Bottas"},
+        "2023": {"24": "Zhou Guanyu", "77": "Valtteri Bottas"},
+        "2024": {"24": "Zhou Guanyu", "77": "Valtteri Bottas"}
+      }
+    },
+    "Haas": {
+      "official_name": "MoneyGram Haas F1 Team",
+      "aliases": [
+        "MoneyGram Haas F1 Team",
+        "Haas F1 Team",
+        "Uralkali Haas F1 Team",
+        "Haas"
+      ],
+      "car_numbers": {
+        "2020": [8, 20],
+        "2021": [9, 47],
+        "2022": [20, 47],
+        "2023": [20, 27],
+        "2024": [20, 27]
+      },
+      "drivers": {
+        "2020": {"8": "Romain Grosjean", "20": "Kevin Magnussen"},
+        "2021": {"9": "Nikita Mazepin", "47": "Mick Schumacher"},
+        "2022": {"20": "Kevin Magnussen", "47": "Mick Schumacher"},
+        "2023": {"20": "Kevin Magnussen", "27": "Nico Hulkenberg"},
+        "2024": {"20": "Kevin Magnussen", "27": "Nico Hulkenberg"}
+      }
+    },
+    "Williams": {
+      "official_name": "Williams Racing",
+      "aliases": [
+        "Williams Racing",
+        "Williams F1",
+        "Williams"
+      ],
+      "car_numbers": {
+        "2020": [6, 63],
+        "2021": [6, 63],
+        "2022": [6, 23],
+        "2023": [2, 23],
+        "2024": [2, 23]
+      },
+      "drivers": {
+        "2020": {"6": "Nicholas Latifi", "63": "George Russell"},
+        "2021": {"6": "Nicholas Latifi", "63": "George Russell"},
+        "2022": {"6": "Nicholas Latifi", "23": "Alexander Albon"},
+        "2023": {"2": "Logan Sargeant", "23": "Alexander Albon"},
+        "2024": {"2": "Logan Sargeant", "23": "Alexander Albon"}
+      }
+    }
+  }
+}
